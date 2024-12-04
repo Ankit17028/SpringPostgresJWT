@@ -1,0 +1,55 @@
+security:
+  jwt:
+    token:
+      secret-key: ${JWT_SECRET_KEY}
+
+spring:
+  datasource:
+    platform: ${DB_PLATFORM}
+    driver-class-name: ${DB_DRIVER_CLASS_NAME}
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    initialization-mode: ${DB_INITIALIZATION_MODE}
+
+  jpa:
+    database-platform: ${JPA_DATABASE_PLATFORM}
+    show-sql: ${JPA_SHOW_SQL}
+    hibernate:
+      ddl-auto: ${JPA_HIBERNATE_DDL_AUTO}
+
+# CORS Configuration
+cors:
+  allowed-origin: ${CORS_ALLOWED_ORIGIN}
+
+
+
+
+
+
+
+
+
+
+
+
+# security:
+#   jwt:
+#     token:
+#       secret-key: my-secret-key
+
+# spring:
+#   datasource:
+#     platform: mysql
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+#     url: jdbc:mysql://localhost:3306/secureDB5
+#     username: root
+#     password: 12345678
+#     initialization-mode: always
+
+#   jpa:
+#     database-platform: org.hibernate.dialect.MySQLDialect
+#     show-sql: false
+#     hibernate:
+#       ddl-auto: create
+
