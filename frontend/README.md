@@ -7,13 +7,13 @@ The frontend is as simple as possible to just show the logic of authentication v
 ## Install
 
 ```
-yarn install
+Npm install
 ```
 
 ## Run on local
 
 ```
-yarn start
+npm run start
 ```
 
 The application will run on `http://localhost:3000`
