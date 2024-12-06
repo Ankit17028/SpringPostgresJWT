@@ -52,15 +52,6 @@ mvn -version
 **Backend (Spring Boot with PostgreSQL)**
 - The Spring Boot application handles authentication, authorization, and RBAC logic. Configured with PostgreSQL for persistent data storage, the backend runs on port 8080.
 
-Endpoints:
-/register (POST): Registers a new user.
-
-/login (POST): Authenticates a user and returns a JWT.
-
-/roles (GET): Retrieves all roles (Admin access).
-
-/users (GET): Retrieves all users (Admin access).
-
 ## Frontend (React.js)
 The frontend, running on port 3000, provides a user-friendly interface for user registration, login, and managing roles.
 
